@@ -1,4 +1,4 @@
-import task from '../Database/task.js'
+import tasks from '../Database/task.js'
 
 export default function AppMain() {
 
@@ -10,6 +10,8 @@ export default function AppMain() {
             <main>
                 <div className="current">
                     <h2>Current Task ()</h2>
+                    <ul>{tasks.map((product, id) => <li key={product.id}>{product}</li>)}</ul>
+                    <div></div>
                 </div>
 
 
