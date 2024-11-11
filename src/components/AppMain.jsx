@@ -15,7 +15,7 @@ export default function AppMain() {
                         <>
                             <h3 className='task-title' key={task.id}>{task.title}</h3>
                             <div className='badge'>{task.state}</div>
-                            <div className='spacing-top'>{task.priority}</div>
+                            <div className='spacing-top'>Priority: {task.priority}</div>
                             <div className='spacing-bottom'>Est. time: {task.estimatedTime}</div>
                         </>
 
