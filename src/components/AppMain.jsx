@@ -10,7 +10,7 @@ export default function AppMain() {
             <main>
                 <div className="current">
                     <h2>Current Task ()</h2>
-                    <ul>{tasks.map((product, id) => <li key={product.id}>{product}</li>)}</ul>
+                    <ul>{tasks.map((product) => <li key={product.id}>{product}</li>)}</ul>
                     <div></div>
                 </div>
 
