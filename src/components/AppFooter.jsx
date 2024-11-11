@@ -4,8 +4,11 @@ export default function AppFooter() {
 
 
         <>
-            <br />
-            <div>Powered by Boolean</div>
+            <footer>
+                <br />
+                <div>Powered by Boolean</div>
+            </footer>
+
         </>
     )
 }

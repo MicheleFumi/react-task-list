@@ -1,14 +1,25 @@
+import task from '../Database/task.js'
+
 export default function AppMain() {
+
 
     return (
 
 
         <>
-            <h2>Current Task ()</h2>
+            <main>
+                <div className="current">
+                    <h2>Current Task ()</h2>
+                </div>
 
-            <br />
 
-            <h2>Completed Task ()</h2>
+
+                <div className="completed">
+                    <h2>Completed Task ()</h2>
+                </div>
+
+            </main>
+
         </>
     )
 }
