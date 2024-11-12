@@ -10,7 +10,7 @@ export default function AppMain() {
         <>
             <main>
                 <div className="current">
-                    <h2 className='section-name'>Current Task (4)</h2>
+                    <h2 className='section-name'>Current Task ({complete.length})</h2>
                     <ul>{notComplete.map(task =>
 
                         <li key={task.id}>
@@ -28,7 +28,7 @@ export default function AppMain() {
 
 
                 <div className="completed">
-                    <h2 className='section-name'>Completed Task (6)</h2>
+                    <h2 className='section-name'>Completed Task ({notComplete.length})</h2>
                     <ul>{complete.map(task =>
 
                         <li key={task.id}>
